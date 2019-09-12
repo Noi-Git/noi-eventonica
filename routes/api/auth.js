@@ -18,6 +18,7 @@ router.get('/', auth, async (req, res) => {
   }
 });
 
+/* ======= USER LOGIN ======= */
 // @route		POST api/auth
 // @desc		Authenticate user & get token
 // @access	Public
